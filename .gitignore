@@ -1,0 +1,61 @@
+# CMake build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Test and benchmark output
+Testing/
+*.prof
+*.profraw
+*.gcda
+*.gcno
+*.gcov
+
+# Sanitizer and debugger output
+*.dSYM/
+asan.*
+ubsan.*
+vgcore.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Platform metadata
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local tooling and temporary files
+.cache/
+.clangd/
+*.log
+*.tmp
